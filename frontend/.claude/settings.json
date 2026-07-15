@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(npm install recharts)",
+      "PowerShell(Get-Content \"c:\\\\Users\\\\DELL\\\\Desktop\\\\ai-recruitment-portal\\\\backend\\\\.env\" | ForEach-Object { \\($_ -split '='\\)[0] })",
+      "PowerShell($b = \"c:\\\\Users\\\\DELL\\\\Desktop\\\\ai-recruitment-portal\\\\backend\"; Push-Location $b; & \"$b\\\\venv\\\\Scripts\\\\python.exe\" -c \"import app.main; print\\('IMPORT OK'\\)\"; Pop-Location)",
+      "PowerShell($f = \"c:\\\\Users\\\\DELL\\\\Desktop\\\\ai-recruitment-portal\\\\frontend\"; \"--- config files ---\"; Get-ChildItem $f -File | Where-Object { $_.Name -match 'tailwind|postcss|vite\\\\.config' } | Select-Object -ExpandProperty Name; \"--- package deps \\(tailwind/postcss\\) ---\"; \\(Get-Content \"$f\\\\package.json\" -Raw\\))"
+    ],
+    "additionalDirectories": [
+      "c:\\Users\\DELL\\Desktop\\ai-recruitment-portal\\frontend\\src\\pages"
+    ]
+  }
+}
