@@ -1,4 +1,4 @@
-# **# AI Recruitment Portal**
+# AI Recruitment Portal
 
 
 
@@ -6,45 +6,45 @@ An AI-powered recruitment platform that helps recruiters parse resumes, evaluate
 
 
 
-### \## Tech Stack
+## Tech Stack
 
 
 
-\*\*Backend:\*\* FastAPI, PostgreSQL, SQLAlchemy, Claude (Anthropic API)
+Backend: FastAPI, PostgreSQL, SQLAlchemy, Claude (Anthropic API)
 
-\*\*Frontend:\*\* React (Vite), Tailwind CSS, React Router, Recharts
+Frontend: React (Vite), Tailwind CSS, React Router, Recharts
 
-\*\*Testing:\*\* pytest
-
-
-
-### \## Features
+Testing: pytest
 
 
 
-\- Recruiter authentication (register, login, session persistence, logout)
-
-\- Dashboard with candidate statistics and charts (skills distribution, experience distribution, upload activity)
-
-\- Resume upload (PDF/DOCX) with AI-powered parsing (name, email, phone, skills, experience, education, certifications, projects)
-
-\- Candidate management (list, search, filter by skill/status, view, edit, delete)
-
-\- Candidate comparison (side-by-side, highlighting shared skills, AI match scores)
-
-\- AI resume analysis against job descriptions (match score, matching/missing skills, experience gap, recommendation)
-
-\- AI-generated interview questions (technical, scenario-based, coding)
-
-\- Candidate evaluation (recruiter/technical/HR ratings, final recommendation)
-
-\- AI chat assistant for natural language candidate search
-
-\- Activity logging (logins, resume uploads, resume analysis, status changes)
+## Features
 
 
 
-### \## Project Structure
+1) Recruiter authentication (register, login, session persistence, logout)
+
+2) Dashboard with candidate statistics and charts (skills distribution, experience distribution, upload activity)
+
+3) Resume upload (PDF/DOCX) with AI-powered parsing (name, email, phone, skills, experience, education, certifications, projects)
+
+4) Candidate management (list, search, filter by skill/status, view, edit, delete)
+
+5) Candidate comparison (side-by-side, highlighting shared skills, AI match scores)
+
+6) AI resume analysis against job descriptions (match score, matching/missing skills, experience gap, recommendation)
+
+7) AI-generated interview questions (technical, scenario-based, coding)
+
+8) Candidate evaluation (recruiter/technical/HR ratings, final recommendation)
+
+9) AI chat assistant for natural language candidate search
+
+10) Activity logging (logins, resume uploads, resume analysis, status changes)
+
+
+
+## Project Structure
 
 
 
@@ -84,21 +84,21 @@ ai-recruitment-portal/
 
 
 
-### \## Prerequisites
+## Prerequisites
 
 
 
-\- Python 3.11+
+1) Python 3.11+
 
-\- Node.js 18+
+2) Node.js 18+
 
-\- PostgreSQL 14+
+3) PostgreSQL 14+
 
-\- An Anthropic API key (get one at console.anthropic.com)
+4) An Anthropic API key (get one at console.anthropic.com)
 
 
 
-### \## Backend Setup
+## Backend Setup
 
 
 
@@ -164,7 +164,7 @@ Backend runs at `http://127.0.0.1:8000`. Interactive API docs available at `http
 
 
 
-### \## Frontend Setup
+## Frontend Setup
 
 
 
